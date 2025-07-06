@@ -1,20 +1,20 @@
-# 📚 Ecommerce-Book-Price-Tracker
+# Ecommerce-Book-Price-Tracker
 
 This project is a web scraping exercise using Python and BeautifulSoup to extract book data (title, price, availability, rating, and more) from the [Books to Scrape](http://books.toscrape.com/) website. The scraped data is used for further analysed using PowerBI dashboard.
 
 ---
 
-## 🧾 Features
+## Features
 
-* 🔍 Scrapes book titles, prices, ratings, availability, and product page links
-* 🔄 Navigates through multiple pages of the website automatically
-* 🧼 Cleans and structures the scraped data into a DataFrame
-* 💾 Saves the dataset to a CSV file for further use
-* 📊 Suitable for use in data visualization and dashboarding
+* Scrapes book titles, prices, ratings, availability, and product page links
+* Navigates through multiple pages of the website automatically
+* Cleans and structures the scraped data into a DataFrame
+* Saves the dataset to a CSV file for further use
+* Suitable for use in data visualization and dashboarding
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python 3.x
 * `requests` – to send HTTP requests
@@ -23,7 +23,7 @@ This project is a web scraping exercise using Python and BeautifulSoup to extrac
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 books_scraping_beautifulsoup.ipynb   # Jupyter Notebook with all code and outputs
@@ -34,7 +34,7 @@ Ecommerce.pbix                       #PowerBI dashboard to analyze, visualize sc
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository:
 
@@ -64,7 +64,7 @@ jupyter notebook books_scraping_beautifulsoup.ipynb
 
 ---
 
-## 📊 Data Columns Extracted
+## Data Columns Extracted
 
 * `Title`
 * `Price`
@@ -74,7 +74,7 @@ jupyter notebook books_scraping_beautifulsoup.ipynb
 
 ---
 
-## 🧠 Use Cases
+## Use Cases
 
 * Practice web scraping techniques
 * Build an e-commerce book analyzer
